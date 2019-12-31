@@ -1,0 +1,45 @@
+body {
+  background-color: #DDDDDD;
+}
+
+#main {
+  height: 100vh;
+}
+
+#timer {
+  background-color: #39CCCC;
+  width: 70vw;
+  height: 35vh;
+  margin: 15vh 15vw;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+#controls {
+  display: flex;
+}
+
+#break {
+  width: 35vw;
+}
+
+#session {
+  width: 35vw;
+}
+
+label {
+  margin: 5px;
+}
+label #session-label, label #break-label {
+  display: block;
+}
+
+#timer-label, #time-left {
+  display: block;
+  font-size: 25px;
+}
+
+button {
+  margin: 5px;
+  display: inline;
+}
